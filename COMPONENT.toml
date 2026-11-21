@@ -1,5 +1,5 @@
 [component]
-name = "SigmaOS-arch-chroot"
+name = "SigmaOS-chroot"
 tier = 2
 stability = "beta"
 language = "rust"

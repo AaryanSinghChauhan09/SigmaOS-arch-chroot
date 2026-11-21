@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-//! SigmaOS-arch-chroot — SigmaOS arch-chroot component inspired by Linux Mint / Omarchy / Arch Linux.
+//! SigmaOS-chroot — SigmaOS chroot component inspired by Linux Mint / SigmaOS / Arch Linux.
 //!
 //! Registry of named entries with fail-fast duplicate/missing handling.
 //! Principles: single responsibility, fail-fast, defensive programming,

@@ -1,4 +1,4 @@
-# SigmaOS-arch-chroot
+# SigmaOS-chroot
 
 Arch chroot environment component for SigmaOS
 

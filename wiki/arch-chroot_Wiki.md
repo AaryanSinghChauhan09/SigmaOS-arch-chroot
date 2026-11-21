@@ -1,50 +1,50 @@
-# SigmaOS-SigmaOS-arch-chroot Component Wiki
+# SigmaOS-SigmaOS-chroot Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-arch-chroot provides Arch chroot environment component for SigmaOS for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-chroot provides Arch chroot environment component for SigmaOS for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
-- SigmaOS-arch-chroot Abstraction
-- Fail-Fast on SigmaOS-arch-chroot Initialization Errors
-- Deterministic SigmaOS-arch-chroot Setup
-- Clear Abstraction Over SigmaOS-arch-chroot APIs
-- Composition over Inheritance for SigmaOS-arch-chroot extensions
+- SigmaOS-chroot Abstraction
+- Fail-Fast on SigmaOS-chroot Initialization Errors
+- Deterministic SigmaOS-chroot Setup
+- Clear Abstraction Over SigmaOS-chroot APIs
+- Composition over Inheritance for SigmaOS-chroot extensions
 
 ## Architecture
-SigmaOS-SigmaOS-arch-chroot follows a SigmaOS-arch-chroot pattern:
-- **SigmaOS-arch-chroot Core**: Provides SigmaOS-arch-chroot support, SigmaOS-arch-chroot management, and SigmaOS-arch-chroot tracking
-- **Management**: Supports SigmaOS-arch-chroot management, SigmaOS-arch-chroot configuration, and SigmaOS-arch-chroot lifecycle
-- **Tracking**: Supports SigmaOS-arch-chroot status, SigmaOS-arch-chroot tracking, and SigmaOS-arch-chroot lifecycle
-- **Error Handling**: Fail-fast on invalid SigmaOS-arch-chroot configurations or unsupported SigmaOS-arch-chroot types
+SigmaOS-SigmaOS-chroot follows a SigmaOS-chroot pattern:
+- **SigmaOS-chroot Core**: Provides SigmaOS-chroot support, SigmaOS-chroot management, and SigmaOS-chroot tracking
+- **Management**: Supports SigmaOS-chroot management, SigmaOS-chroot configuration, and SigmaOS-chroot lifecycle
+- **Tracking**: Supports SigmaOS-chroot status, SigmaOS-chroot tracking, and SigmaOS-chroot lifecycle
+- **Error Handling**: Fail-fast on invalid SigmaOS-chroot configurations or unsupported SigmaOS-chroot types
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-arch-chroot by given configuration
--  - Register a SigmaOS-arch-chroot by given name
--  - Get SigmaOS-arch-chroot status and SigmaOS-arch-chroot availability
--  - Track SigmaOS-arch-chroot management and SigmaOS-arch-chroot tracking
-- Error types for SigmaOS-arch-chroot failure scenarios or unsupported SigmaOS-arch-chroot types
+-  - Manage a SigmaOS-chroot by given configuration
+-  - Register a SigmaOS-chroot by given name
+-  - Get SigmaOS-chroot status and SigmaOS-chroot availability
+-  - Track SigmaOS-chroot management and SigmaOS-chroot tracking
+- Error types for SigmaOS-chroot failure scenarios or unsupported SigmaOS-chroot types
 
 ## Test Structure (Arrange-Act-ASSERT)
 All tests follow the AAA pattern:
-1. **Arrange**: Set up test environment with specific SigmaOS-arch-chroot configuration
-2. **Act**: Execute the code under test (SigmaOS-arch-chroot init, SigmaOS-arch-chroot management)
-3. **Assert**: Verify the expected SigmaOS-arch-chroot results
+1. **Arrange**: Set up test environment with specific SigmaOS-chroot configuration
+2. **Act**: Execute the code under test (SigmaOS-chroot init, SigmaOS-chroot management)
+3. **Assert**: Verify the expected SigmaOS-chroot results
 
 Example:
 
 
 ## Development
 - Follows Rust best practices with 
-- SigmaOS-arch-chroot initialization is best-effort; gracefully degrades on unsupported configurations
-- Comprehensive error types for all SigmaOS-arch-chroot failure scenarios
-- Unit tests provided for SigmaOS-arch-chroot management and configuration
-- Integration tests for full SigmaOS-arch-chroot system with actual SigmaOS-arch-chroot integration
+- SigmaOS-chroot initialization is best-effort; gracefully degrades on unsupported configurations
+- Comprehensive error types for all SigmaOS-chroot failure scenarios
+- Unit tests provided for SigmaOS-chroot management and configuration
+- Integration tests for full SigmaOS-chroot system with actual SigmaOS-chroot integration
 
 ## TODO
-- Add support for additional SigmaOS-arch-chroot types
-- Expand SigmaOS-arch-chroot capabilities (SigmaOS-arch-chroot features, SigmaOS-arch-chroot configurations, SigmaOS-arch-chroot tracking)
-- Add lifecycle features (SigmaOS-arch-chroot tracking, SigmaOS-arch-chroot lifecycle, SigmaOS-arch-chroot propagation)
-- Create integration tests with actual SigmaOS-arch-chroot systems and SigmaOS-arch-chroot integration
-- Implement SigmaOS-arch-chroot persistence and SigmaOS-arch-chroot state management
+- Add support for additional SigmaOS-chroot types
+- Expand SigmaOS-chroot capabilities (SigmaOS-chroot features, SigmaOS-chroot configurations, SigmaOS-chroot tracking)
+- Add lifecycle features (SigmaOS-chroot tracking, SigmaOS-chroot lifecycle, SigmaOS-chroot propagation)
+- Create integration tests with actual SigmaOS-chroot systems and SigmaOS-chroot integration
+- Implement SigmaOS-chroot persistence and SigmaOS-chroot state management
